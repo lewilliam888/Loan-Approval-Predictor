@@ -4,7 +4,7 @@ import pandas as pd
 import sklearn
 
 # Load the trained model
-with open("loan_model.pkl", "rb") as file:
+with open("my_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Title for the app
